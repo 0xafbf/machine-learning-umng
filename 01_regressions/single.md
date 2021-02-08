@@ -165,7 +165,7 @@ construcción, etc. Así el modelo se convierte en:
 -   Aplique el gradiente descendente para ajustar el modelo a los datos.
     Considere hacer normalicación de los datos.
 
-![](error_de_regresión_multivariable.png "error de regresión multivariable")
+![](error_de_regresion_multivariable.png "error de regresion multivariable")
 
 ### Clasificación con regresión logística
 

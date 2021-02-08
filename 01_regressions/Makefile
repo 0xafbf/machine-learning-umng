@@ -17,12 +17,18 @@ objects = \
 main: single.html
 run: main
 	xdg-open single.html
+
+all: single.html single.md single.pdf
+
 pdf: single.pdf
 
 %.md : %.py
 	if [ -f $< ]; then python $< > $@; fi
 
-single.pdf: $(objects) $(METADATA)
+single.md: $(objects)
+	pandoc $(FLAGS) --output $@ $(objects) $(METADATA)
+
+single.pdf:  $(METADATA)
 	pandoc $(FLAGS) --output $@ $(objects) $(METADATA)
 
 single.html: $(objects) $(METADATA)

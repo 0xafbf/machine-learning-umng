@@ -101,6 +101,6 @@ y = A0 + A1 X1 + A2 X2 + ... + AnX
 
 """)
 
-print_img(fig, "error de regresión multivariable")
+print_img(fig, "error de regresion multivariable")
 
 

@@ -10,6 +10,7 @@ def print_img(figure, name, alt_text = ""):
     print("""![%s](%s "%s")""" % (alt_text, path, name))
     
 
+    
 print("""
 Actividad práctica:
 -------------------
