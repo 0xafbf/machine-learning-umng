@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Andrés Botero" />
+  <meta name="author" content="Carlos Guerrero" />
+  <meta name="dcterms.date" content="2021-02-07" />
+  <meta name="keywords" content="one, two, three" />
+  <title>Conceptos básicos</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Conceptos básicos</h1>
+<p class="author">Andrés Botero</p>
+<p class="author">Carlos Guerrero</p>
+<p class="date">2021-02-07</p>
+</header>
+<h2 id="actividad-teórica">Actividad teórica:</h2>
+<h3 id="qué-es-machine-learning">¿Qué es Machine Learning?</h3>
+<p>Es el estudio de algoritmos de computador que se mejoran automáticamente por medio de la experiencia. Usan un un modelo basado en <em>datos de entrenamiento</em> para hacer predicciones o decisiones sin ser programado específicamente para eso.</p>
+<h3 id="cuál-es-el-objetivo-principal-del-machine-learning">¿Cuál es el objetivo principal del Machine Learning?</h3>
+<p>El machine learning busca que sea el mismo computador el que cree el algoritmo necesario para resolver un problema, ya que puede ser un problema tan complejo, que crear un algoritmo para resolver el problema puede ser demasiado desafiante para que un humano pueda desarrollarlo.</p>
+<h3 id="qué-diferencia-yo-relación-existe-entre-machine-learning-e-inteligencia-artificial">¿Qué diferencia y/o relación existe entre Machine Learning e Inteligencia Artificial?</h3>
+<p>Inteligencia artificial puede considerarse cualquier algoritmo que lleve a un computador a tomar decisiones “inteligentes” basadas en datos de entrada. Puede abarcar campos desde la gestion de procesos industriales hasta los videojuegos, pero generalmente representa comportamientos de inteligencia humana plasmados en algoritmos. Machine learning es un tipo de IA donde se busca que sea la misma máquina la que llega a este “conocimiento” mediante un proceso de aprendizaje de la máquina o “entrenamiento”.</p>
+<h3 id="explique-cómo-diferenciar-una-aplicación-de-machine-learning-de-una-aplicación-de-inteligencia-artificial">Explique: ¿Cómo diferenciar una aplicación de machine learning de una aplicación de inteligencia artificial?</h3>
+<p>La diferencia particular del machine learning es que el algoritmo final es generado por la misma máquina basado en observaciones. Basado en esto se puede identificar una aplicación de machine learning si requiere de datos iniciales para ser entrenada. Además de esto la aplicación de machine learning se puede hacer mejor cada vez a medida que es usada y entrenada, mientras que otro tipo de inteligencia artificial va a generar los mismos resultados ante los mismos estímulos.</p>
+<h3 id="mencione-al-menos-3-aplicaciones-generales-de-machine-learning">Mencione al menos 3 aplicaciones generales de machine learning</h3>
+<p>Seguridad, en la deteccion de rostro por medio de grabaciones de camaras de seguridad Busqueda en linea, el sistemas de busqueda que manejan los navegadores Procesamiento de lenguage natural, como lo es Alexa y Siri que reconocen la voz y el idioma</p>
+<h3 id="mencione-y-explique-3-aplicaciones-de-machine-learning-en-ingenieria">Mencione y explique 3 aplicaciones de Machine Learning en ingenieria</h3>
+<p>Prediccion de fallos en una maquinaria, esto ayuda a prevenir fallos graves y costosos, ademas de poder programar la reparacion de la maquinaria sin dañar la productividad. Auto ajustes en una aplicacion, la aplicacion se ajusta a los gustos del usuario y le da opciones basado en los gustos, constumbres y/o necesidades. Analisis de imagenes de alta calidad, con este tipo de imagenes se le enseña que tipo de imagenes se esta buscando.</p>
+<h3 id="explique-que-relacion-existe-entre-machine-learning-e-ingenieria-mecatronica">Explique que relacion existe entre machine learning e ingenieria mecatronica?</h3>
+<p>Ya que</p>
+<h3 id="mencione-y-explique-3-aplicaciones-de-machine-learning-en-el-escenario-especifico-de-la-ingeniería-para-la-que-se-está-formando">Mencione y explique 3 aplicaciones de machine learning en el escenario especifico de la ingeniería para la que se está formando</h3>
+<p>Prediccion de fallos en una maquinaria, ya que con esto se puede programar detencion de la maquinaria y cambiar los implementos necesarios previniendo fallos graves y costosos. Analisis de imagenes, por medio de grabaciones en la deteccion del rostro o por medio de una camara para emparejar las imagenes y hacer un espaciado 3D del entorno.</p>
+<h3 id="para-las-aplicaciones-mencionadas-anteriormente-diga-qué-estrategias-diferentes-a-machine-learning-pueden-ser-usadas-para-resolver-el-problema">Para las aplicaciones mencionadas anteriormente, diga ¿Qué estrategias diferentes a Machine Learning pueden ser usadas para resolver el problema?</h3>
+<p>Para predicir un fallo solo es con las con las estadisticas de las piezas que contienen en el manual programando una mantenimiento para revisar el estado de la pieza En el analisis de imagenes para la deteccion de rostros tocaria pausar el video y seleccionar la parte de la imagen donde se encuentre el rostro.</p>
+<h3 id="investigue-qué-es-la-regresión-lineal-y-cuál-es-su-relación-y-aplicación-con-machine-learning">Investigue ¿Qué es la regresión lineal? y ¿Cuál es su relación y aplicación con Machine learning?</h3>
+<p>Es un modelo matemático para aproximar la relacion entre una variable dependiente y varias variables independientes.</p>
+<p>La manera de lograr esto es partir de una funcion lineal (o cualquier función), y mediante un proceso iterativo se busca que esta función se vaya adaptando a un resultado, buscando reducir al máximo la diferencia entre la función y los datos con los que se compara. Es decir, se busca minimizar la diferencia entre los datos reales y la función lineal (o cualquier otra)</p>
+<p>Para lograr esto es conveniente tener una manera de medir esta <em>diferencia</em>. Esto se hace con una <strong>función de costo</strong> que nos indique numéricamente qué tan cerca de los datos reales está nuestra predicción. Una función de costo popular es la función del <em>error cuadrático medio</em> mostrada a continuación:</p>
+<pre><code>ECM = 1/n * sum( (prediccion_i - dato_i)^2 )</code></pre>
+<p>Para buscar la aproximación óptima (la que tenga el error mínimo) es necesario ajustar las influencias de las variables independientes sobre la predicción. Este proceso se hace de manera iterativa usando el concepto de descenso de gradiente.</p>
+<p>El descenso de gradiente, de manera resumida, consiste en tomar dos predicciones A y B (con dos valores de influencia cercanos) y evaluar cuál de las predicciones es más acertada (usando nuestra función de costo). Luego de esto podemos ajustar las influencias del modelo en la dirección que tiende a reducirse el error de la predicción. De esta manera cada nuevo paso va reduciendo el error.</p>
+<h3 id="investigue-qué-es-la-regresión-logística-y-cuál-es-su-relación-y-aplicación-con-machine-learning">Investigue ¿Qué es la regresión logística? y ¿Cuál es su relación y aplicación con machine learning?</h3>
+<h2 id="actividad-práctica">Actividad práctica:</h2>
+<h3 id="regresión-de-una-variable">Regresión de una variable:</h3>
+<p>Considere el escenario de predecir el valor de una casa dependiendo del área. Adquiera o genere un dataset que represente el problema. Tomando como base la regresión lineal, se tiene que el valor de una casa es una función del área</p>
+<pre><code>y = A0 + A1*x</code></pre>
+<p>Donde y es el valor predicho y x es el área en metros cuadrados, el modelo lineal tiene los parámetros A0 y A1, el problema de Machine learning es encontrar los valores de los parámetros A0 y A1 que adapten el modelo a los datos.</p>
+<p>En Machine Learning el método mas comúnmente aplicado para estimar los parámetros de un modelo es el gradiente descendente, para ello se requiere diseñar una función de costo. * Plantee la función de costo para el problema mencionado * Aplique el gradiente descendente para encontrar los parámetros del modelo. Considere hacer normalización de los datos. * ¿Cuál es el metodo idóneo con el que se normalizan los datos?</p>
+<p>mse 2819766538489.7344 mse after 77223648707.19275 <img src="linear_regression.png" title="linear_regression" /></p>
+<h3 id="regresión-multivariable">Regresión multivariable:</h3>
+<p>Considere ahora que existe más de una característica para predecir el valor de la casa, ej. área, numero de habitaciones, años de construcción, etc. Así el modelo se convierte en:</p>
+<pre><code>y = A0 + A1 X1 + A2 X2 + ... + AnX</code></pre>
+<ul>
+<li>¿Cómo se plantearía la nueva función de costo teniendo en cuenta el nuevo conjunto de datos? realice la implementación</li>
+<li>Aplique el gradiente descendente para ajustar el modelo a los datos. Considere hacer normalicación de los datos.</li>
+</ul>
+<p><img src="error_de_regresión_multivariable.png" title="error de regresión multivariable" /></p>
+<h3 id="clasificación-con-regresión-logística">Clasificación con regresión logística</h3>
+<p>Considere el escenario donde se quiere saber si un tumor es maligno o benigno. Se asume que dicha condiciónd epende del tamaño del tumor. Para este problema se considera que existen 2 clases, tumor maligno (identificada como y=1) y tumor benigno (identificada como y=0) en machine learning la herramienta más sencilla para generar un l ímite o frontera de decisión (decision boundary) es la regresión logística, cuyo modelo matemático es:</p>
+<pre><code>p = 1 / (1+exp(x))</code></pre>
+<p>donde p indica el grado de pertenencia (a veces probabilidad) de la observación x a una categoría o clase, para el ejemplo mencionado tumor maligno o benigno.</p>
+<ul>
+<li>cómo se genera la función de costo para esta aplicación y de qué forma se puede incorporar en el algoritmo de gradiente descendente? implemente</li>
+<li>Aplique el algoritmo de gradiente descendente para ajustar el modelo de clasificación y evalúe el desempeño del modelo ajustado</li>
+<li>¿como se evalua dicho desempeño?</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<h3 id="autoevaluación">Autoevaluación:</h3>
+<p>En este apartado debe realizar una autoevaluación del proceso desarrollado y de las habilidades adquiridas con las actividades propuestas. Para ello responda las siguientes preguntas otorgando el valor porcentual (0 - 100 %) a cada una de ellas.</p>
+<ol type="1">
+<li><p>¿Desarrolló la totalidad de las actividades propuestas?</p></li>
+<li><p>¿La metodología le permitió construir saberes significativos que le aporten al desarrollo del tema planteado?</p></li>
+<li><p>¿Qué tanto fue su grado de dedicación durante el desarrollo de las actividades planteadas?</p></li>
+<li><p>¿Qué tanto fue su grado de interés en el tema propuesto?</p></li>
+<li><p>Otorgue un valor porcentual a cada uno de los indicadores de las metas propuestas según su cumplimiento</p></li>
+</ol>
+<h3 id="retroalimentación">Retroalimentación:</h3>
+<p>En esta sección se espera que a partir de lo vivido durante el desarrollo de las actividades propuestas, Ud pueda dar algunas recomendaciones o sugerencias sobre el tema y el desarrollo de las mismas. Tenga en cuenta que sus aportes enriquecen el ejercicio docente, gracias.</p>
+</body>
+</html>
