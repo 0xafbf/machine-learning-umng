@@ -129,6 +129,7 @@ print_img(fig, "linear_regression")
 
 print("""
 A continuación analizamos las diferencias al hacer el ejercicio usando los datos normalizados
+```
 """)
 
 import sklearn.preprocessing as pre
@@ -156,12 +157,11 @@ def test_with_scaler(scaler_class):
         current_rme, gradient = grad(rme_from_weights, weights, gradient_step)
         print("it:", idx, "\trme:", current_rme)
         print("gradient:", gradient);
-        
         weights += gradient * step
         plt.plot(scaled_inputs[:,0], calc_price(scaled_inputs, weights))
         
-
 test_with_scaler(pre.StandardScaler)
+print("```\n\n")
 
 print_img(fig2, "with_scaler")
 # todo later. . . check if scaling only inputs or only outputs would make things work better... or apply nonuniform (square, log) would change
