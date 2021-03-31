@@ -1,0 +1,17 @@
+---
+title: 'Conceptos básicos'
+author:
+  - Andrés Botero
+  - Carlos Guerrero
+keywords:
+  - one
+  - two
+  - three
+numbersections: yes
+lang: en
+babel-lang: english
+abstract: |
+  This is the abstract.
+  It consists of two paragraphs.
+date: 2021-02-07
+---
